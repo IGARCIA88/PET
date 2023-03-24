@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="register.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <img src="img/logo.jpg" >
+        <a href="#"><i class ="fa-solidfa-magnifying-glass"></i></a>
+        <a href="#">Menu</a>
+        <a href="#">Servicios</a>
+        <a href="#">Subscripcion</a>
+    </nav>
+</body>
+<body>
+    <h2>REGISTRA UNA MASCOTA</h2>
+          <div  class="formulario">
+    <input type="txt" placeholder="NOMBRE"id="txtNombre">
+    <input type="txt" placeholder="GENERO"id="txtGenero">
+    <input type="txt" placeholder="RAZA"id="txtRaza">
+    <input type="sel" placeholder="EDAD"id="selEdad">
+    <input type="txt" placeholder="CONSULTA"id="txtConsulta">
+    <input type="txt" placeholder="DIRECCION"id="txtDireccion">
+    <input type="txt" placeholder="TELEFONO"id="txtTelefono">
+
+    <select>
+        <option value= "formulario" disable selected > -- selecciona un servicio ==</option>
+        <option value=" vacunas " > Vacunas </option>
+        <option  value=" Grooming " > Grooming </option>
+    </select>
+<button onclick="registro()";>REGISTRAR</button>
+ </div>
+ <h2>MASCOTAS EN EL SISTEMA</h2>
+    <div id="mascotas">
+ </div>
+ <nav>
+    <img src="img/dr.jpg" >
+    <img src="img/shower.jpg" >
+  
+ </nav>
+ <script src= "register.js" ></script>
+ <script src= "display.js" ></script>
+</body>
+</html>

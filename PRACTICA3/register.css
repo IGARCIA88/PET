@@ -1,0 +1,58 @@
+body{
+    font-family: Tahoma;
+    background-image:url("img/fondo.jpg");
+    background-size:cover;
+}
+.formulario{
+    background-color:hsl(192, 85%, 44%);
+    padding: 100px;
+    border-radius:10px;
+    width:35%;
+    margin-left:center;
+    margin-right:center;
+}
+.formulario input[tipe="text"],
+.formulario select{
+    display:block;
+    margin:15;
+    width:100%;
+    padding:10px;
+    border-radius:50px;
+    border: 5px;
+} 
+label{
+    display:block;
+    }
+button{
+    display:block;
+    margin:15
+}
+   .onclick{
+
+        display:block;
+    margin:15;
+    width:100%;
+    padding:10px;
+    border-radius:50px;
+    border: none;
+}
+.error{
+    background:1px solid red;
+}
+.card {
+    background-color:hsl(192, 85%, 44%);
+    padding: 100px;
+    width:15%;
+    background: center 5px;
+    border: 1px solid rgb(133, 220, 47);
+    padding:10px;
+    border-radius:10px;
+    background:hsl(191, 37%, 75%);
+
+}
+#mascotas{
+    display:grid;
+    grid-template-columns: repeat(3,lfr);
+    column-gap: 5px;
+
+}
